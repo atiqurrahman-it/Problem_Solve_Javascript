@@ -8,7 +8,7 @@ var [X,Y]=lines.shift().split(" ").map(function(item){
     return item
 })
 
-or 
+OR
 // var [a,b]=lines.shift().split(" ").map(item=> parseInt(item));
 // var [A,B]=input.split(" ").map(item=> parseFloat(item));
 
