@@ -41,13 +41,11 @@ function onlyPositive(arr){
     for(let i=0;i<arr.length;i++){
         if(arr[i] > -1){
             sum+=arr[i]
-
         }else{
             break
         }
     }
     return sum
-
 }
 let numbers=[45,87,96,11,-63,-56,63,12]
 let sumPositiveNumber=onlyPositive(numbers)
